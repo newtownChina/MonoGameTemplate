@@ -2,6 +2,10 @@
  一个MonoGame游戏模板<br>
 模板结构：<br>
 ![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/3.png)<br>
+![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/MyGame_62L0eMwSqB.gif)<br>
+预览：<br>
+![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/1.png)<br>
+![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/2.png)<br>
  功能：<br>
 一、简单碰撞检测：<br>
 解析Tiled（https://www.mapeditor.org/ ） 地图编辑器绘制的瓦片碰撞形状，支持由顶点构成的多边形碰撞和矩形碰撞。<br>
@@ -16,6 +20,3 @@
 六、简单事件管理<br>
  
 
-预览：<br>
-![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/1.png)<br>
-![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/2.png)<br>
