@@ -1,7 +1,7 @@
 # MyGame
  一个MonoGame游戏模板<br>
 模板结构：<br>
-![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/3.png)<br>
+![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/5.png)<br>
 预览：<br>
 ![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/MyGame_62L0eMwSqB.gif)<br>
 ![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/1.png)<br>
