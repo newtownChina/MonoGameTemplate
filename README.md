@@ -4,8 +4,6 @@
 ![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/5.png)<br>
 预览：<br>
 ![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/MyGame_62L0eMwSqB.gif)<br>
-![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/1.png)<br>
-![image](https://github.com/newtownChina/MonoGameTemplate/blob/master/Content/2.png)<br>
  功能：<br>
 一、简单碰撞检测：<br>
 解析Tiled（https://www.mapeditor.org/ ） 地图编辑器绘制的瓦片碰撞形状，支持由顶点构成的多边形碰撞和矩形碰撞。<br>
