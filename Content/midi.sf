@@ -1,0 +1,19 @@
+{
+  "textureAtlas": {
+    "texture": "midi.png",
+    "regionWidth": 30,
+    "regionHeight": 48
+  },
+  "cycles": {
+    "animation0": {
+      "frames": [5,6,7,8],
+      "isLooping": true,
+      "frameDuration": 0.2
+    },
+    "animation1": {
+      "frames": [75,76,77,78,79],
+      "isLooping": false,
+      "frameDuration": 0.2
+    }
+  }
+}

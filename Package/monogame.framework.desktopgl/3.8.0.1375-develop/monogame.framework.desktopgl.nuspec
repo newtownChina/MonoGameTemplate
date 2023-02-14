@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MonoGame.Framework.DesktopGL</id>
+    <version>3.8.0.1375-develop</version>
+    <authors>MonoGame Team</authors>
+    <owners>MonoGame Team</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MS-PL</license>
+    <licenseUrl>https://licenses.nuget.org/MS-PL</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>http://monogame.net/</projectUrl>
+    <description>MonoGame is an open source implementation of the Microsoft XNA 4.x Framework. The goal is to make it easy for XNA developers to create cross-platform games with extremely high code reuse.
+
+This package provides you with MonoGame Framework that uses OpenGL for rendering and works on Windows, Linux and MacOS.</description>
+    <tags>monogame .net core core .net standard standard desktopgl</tags>
+    <repository url="https://github.com/MonoGame/MonoGame" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>

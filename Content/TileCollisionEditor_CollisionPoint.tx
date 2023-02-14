@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="CollisionPoint">
+  <properties>
+   <property name="Collision" type="bool" value="true"/>
+  </properties>
+  <point/>
+ </object>
+</template>

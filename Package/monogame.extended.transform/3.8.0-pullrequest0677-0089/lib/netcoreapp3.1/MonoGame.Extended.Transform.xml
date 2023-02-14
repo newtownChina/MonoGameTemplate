@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MonoGame.Extended.Transform</name>
+    </assembly>
+    <members>
+        <member name="T:MonoGame.Extended.Transform.Transform2">
+            <summary>
+                Provides the position, rotation, and scale of a two-dimensional game object.
+            </summary>
+            <remarks>
+                <para>
+                    Setting the <see cref="P:MonoGame.Extended.Transform.Transform2.Parent" /> allows to apply position, rotation and scale to
+                    game objects hierarchically.
+                </para>
+            </remarks>
+        </member>
+        <member name="E:MonoGame.Extended.Transform.Transform2.Updated">
+            <summary>
+                Occurs when the <see cref="M:MonoGame.Extended.Transform.Transform2.WorldMatrix" /> has been re-calculated.
+            </summary>
+        </member>
+        <member name="M:MonoGame.Extended.Transform.Transform2.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:MonoGame.Extended.Transform.Transform2" /> class.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Transform.Transform2.Position">
+            <summary>
+                Gets or sets the local position.
+            </summary>
+            <value>
+                The local position.
+            </value>
+        </member>
+        <member name="P:MonoGame.Extended.Transform.Transform2.Rotation">
+            <summary>
+                Gets or sets the local rotation angle in radians.
+            </summary>
+            <value>
+                The local rotation angle in radians.
+            </value>
+        </member>
+        <member name="P:MonoGame.Extended.Transform.Transform2.Scale">
+            <summary>
+                Gets or sets the local scale.
+            </summary>
+            <value>
+                The local scale.
+            </value>
+        </member>
+        <member name="P:MonoGame.Extended.Transform.Transform2.Parent">
+            <summary>
+                Gets or sets the parent <see cref="T:MonoGame.Extended.Transform.Transform2" />.
+            </summary>
+            <value>
+                The parent <see cref="T:MonoGame.Extended.Transform.Transform2" />.
+            </value>
+            <remarks>
+                <para>
+                    Setting <see cref="P:MonoGame.Extended.Transform.Transform2.Parent" /> to a non-null <see cref="T:MonoGame.Extended.Transform.Transform2" /> instance enables the
+                    <see cref="P:MonoGame.Extended.Transform.Transform2.Position" />, <see cref="P:MonoGame.Extended.Transform.Transform2.Rotation" />, and <see cref="P:MonoGame.Extended.Transform.Transform2.Scale" /> to be inherited from said
+                    <see cref="T:MonoGame.Extended.Transform.Transform2" />. Setting <see cref="P:MonoGame.Extended.Transform.Transform2.Parent" /> to <c>null</c> disables the inheritance.
+                </para>
+            </remarks>
+        </member>
+        <member name="M:MonoGame.Extended.Transform.Transform2.LocalMatrix">
+            <summary>
+                Gets the model-to-local space <see cref="T:System.Numerics.Matrix3x2" />.
+            </summary>
+            <returns>The model-to-local space <see cref="T:System.Numerics.Matrix3x2" />.</returns>
+        </member>
+        <member name="M:MonoGame.Extended.Transform.Transform2.WorldMatrix">
+            <summary>
+                Gets the local-to-world space <see cref="T:System.Numerics.Matrix3x2" />.
+            </summary>
+            <returns>The local-to-world space <see cref="T:System.Numerics.Matrix3x2" />.</returns>
+        </member>
+        <member name="M:MonoGame.Extended.Transform.Transform2.ToString">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MonoGame.Framework.WpfInterop</id>
+    <version>1.9.2</version>
+    <authors>MarcStan</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/MarcStan/monogame-framework-wpfinterop</projectUrl>
+    <description>MonoGame integration with WPF. This package provides the D3D11Host from the MonoGame WpfInteropSample. It extends it with WpfGame, WpfMouse and WpfKeyboard and makes it actually usable in any WPF application.
+
+Supports .Net 4.5.2, .Net Core 3.1 and .Net 5</description>
+    <copyright>Copyright MarcStan 2016 - 2021</copyright>
+    <tags>monogame wpf interop</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="MonoGame.Framework.WindowsDX" version="3.8.0.1641" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="MonoGame.Framework.WindowsDX" version="3.8.0.1641" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+      <group targetFramework=".NETFramework4.5.2" />
+    </frameworkReferences>
+  </metadata>
+</package>

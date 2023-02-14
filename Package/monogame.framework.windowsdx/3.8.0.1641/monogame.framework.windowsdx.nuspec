@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MonoGame.Framework.WindowsDX</id>
+    <version>3.8.0.1641</version>
+    <authors>MonoGame Team</authors>
+    <owners>MonoGame Team</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MS-PL</license>
+    <licenseUrl>https://licenses.nuget.org/MS-PL</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>https://www.monogame.net/</projectUrl>
+    <description>The MonoGame runtime for Windows using DirectX API's.</description>
+    <tags>monogame .net core core .net standard standard windowsdx</tags>
+    <repository url="https://github.com/MonoGame/MonoGame" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="SharpDX" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.DXGI" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.Direct2D1" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.Direct3D11" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.MediaFoundation" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.XAudio2" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.XInput" version="4.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="SharpDX" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.DXGI" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.Direct2D1" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.Direct3D11" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.MediaFoundation" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.XAudio2" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.XInput" version="4.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+</package>

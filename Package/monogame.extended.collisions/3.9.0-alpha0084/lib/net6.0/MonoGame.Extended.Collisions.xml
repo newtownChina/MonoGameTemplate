@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MonoGame.Extended.Collisions</name>
+    </assembly>
+    <members>
+        <member name="T:MonoGame.Extended.Collisions.CollisionGrid">
+            <summary>
+            Represents a collision grid. This is used to break the game world into
+            chunks to detect collisions efficiently.
+            </summary>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.CollisionGrid.#ctor(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Creates a new collision grid of specified size.
+            </summary>
+            <param name="data"></param>
+            <param name="columns">Number of columns in the grid.</param>
+            <param name="rows">Number of rows in the grid.</param>
+            <param name="cellWidth">The width of each individual cell.</param>
+            <param name="cellHeight">The height of each individual cell.</param>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionGrid.Columns">
+            <summary>
+            Gets the number of columns in this grid.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionGrid.Rows">
+            <summary>
+            Gets the number of rows in this grid.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionGrid.CellWidth">
+            <summary>
+            Gets the width of each cell.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionGrid.CellHeight">
+            <summary>
+            Gets the height of each cell.
+            </summary>
+        </member>
+        <member name="T:MonoGame.Extended.Collisions.CollisionGridCell">
+            <summary>
+            Represents a single cell in a collision grid.
+            </summary>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.CollisionGridCell.#ctor(MonoGame.Extended.Collisions.CollisionGrid,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Creates a collision grid cell at a location in the parent grid.
+            </summary>
+            <param name="parentGrid">The collision grid which this cell is a part of.</param>
+            <param name="column">The column position of this cell.</param>
+            <param name="row">The row position of this cell.</param>
+            <param name="data"></param>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionGridCell.Column">
+            <summary>
+            Gets the Column in the parent grid that this cell represents.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionGridCell.Row">
+            <summary>
+            Gets the Row in the parent grid that this cell represents.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionGridCell.BoundingBox">
+            <summary>
+            Gets the bounding box of the cell.
+            </summary>
+        </member>
+        <member name="T:MonoGame.Extended.Collisions.CollisionInfo">
+            <summary>
+            This class holds data on a collision. It is passed as a parameter to
+            OnCollision methods.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionInfo.Other">
+            <summary>
+            Gets the object being collided with.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionInfo.PenetrationVector">
+            <summary>
+            Gets a vector representing the overlap between the two objects.
+            </summary>
+        </member>
+        <member name="T:MonoGame.Extended.Collisions.CollisionComponent">
+            <summary>
+            Handles basic collision between actors.
+            When two actors collide, their OnCollision method is called.
+            </summary>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.CollisionComponent.#ctor(MonoGame.Extended.RectangleF)">
+            <summary>
+            Creates a collision tree covering the specified area.
+            </summary>
+            <param name="boundary">Boundary of the collision tree.</param>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.CollisionComponent.Update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Update the collision tree and process collisions.
+            </summary>
+            <remarks>
+            Boundary shapes are updated if they were changed since the last
+            update.
+            </remarks>
+            <param name="gameTime"></param>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.CollisionComponent.Insert(MonoGame.Extended.Collisions.ICollisionActor)">
+            <summary>
+            Inserts the target into the collision tree.
+            The target will have its OnCollision called when collisions occur.
+            </summary>
+            <param name="target">Target to insert.</param>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.CollisionComponent.Remove(MonoGame.Extended.Collisions.ICollisionActor)">
+            <summary>
+            Removes the target from the collision tree.
+            </summary>
+            <param name="target">Target to remove.</param>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.CollisionComponent.Contains(MonoGame.Extended.Collisions.ICollisionActor)">
+            <summary>
+            Gets if the target is inserted in the collision tree.
+            </summary>
+            <param name="target">Actor to check if contained</param>
+            <returns>True if the target is contained in the collision tree.</returns>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.CollisionComponent.CalculatePenetrationVector(MonoGame.Extended.IShapeF,MonoGame.Extended.IShapeF)">
+            <summary>
+            Calculate a's penetration into b
+            </summary>
+            <param name="a">The penetrating shape.</param>
+            <param name="b">The shape being penetrated.</param>
+            <returns>The distance vector from the edge of b to a's Position</returns>
+        </member>
+        <member name="T:MonoGame.Extended.Collisions.CollisionEventArgs">
+            <summary>
+            This class holds data on a collision. It is passed as a parameter to
+            OnCollision methods.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionEventArgs.Other">
+            <summary>
+            Gets the object being collided with.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.CollisionEventArgs.PenetrationVector">
+            <summary>
+            Gets a vector representing the overlap between the two objects.
+            </summary>
+            <remarks>
+            This vector starts at the edge of <see cref="P:MonoGame.Extended.Collisions.CollisionEventArgs.Other"/> and ends at
+            the Actor's location.
+            </remarks>
+        </member>
+        <member name="T:MonoGame.Extended.Collisions.ICollisionActor">
+            <summary>
+            An actor that can be collided with.
+            </summary>
+        </member>
+        <member name="T:MonoGame.Extended.Collisions.Quadtree">
+            <summary>
+                Class for doing collision handling with a quad tree.
+            </summary>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.Quadtree.#ctor(MonoGame.Extended.RectangleF)">
+            <summary>
+                Creates a quad tree with the given bounds.
+            </summary>
+            <param name="bounds">The bounds of the new quad tree.</param>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.Quadtree.NodeBounds">
+            <summary>
+                Gets the bounds of the area contained in this quad tree.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.Quadtree.IsLeaf">
+            <summary>
+                Gets whether the current node is a leaf node.
+            </summary>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.Quadtree.NumTargets">
+            <summary>
+                Counts the number of unique targets in the current Quadtree.
+            </summary>
+            <returns>Returns the targets of objects found.</returns>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.Quadtree.Insert(MonoGame.Extended.Collisions.QuadtreeData)">
+            <summary>
+                Inserts the data into the tree.
+            </summary>
+            <param name="data">Data being inserted.</param>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.Quadtree.Remove(MonoGame.Extended.Collisions.QuadtreeData)">
+            <summary>
+                Removes data from the Quadtree
+            </summary>
+            <param name="data">The data to be removed.</param>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.Quadtree.Shake">
+            <summary>
+                Removes unneccesary leaf nodes and simplifies the quad tree.
+            </summary>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.Quadtree.Split">
+            <summary>
+                Splits a quadtree into quadrants.
+            </summary>
+        </member>
+        <member name="M:MonoGame.Extended.Collisions.Quadtree.Query(MonoGame.Extended.IShapeF)">
+            <summary>
+                Queries the quadtree for targets that intersect with the given area.
+            </summary>
+            <param name="area">The area to query for overlapping targets</param>
+            <returns>A unique list of targets intersected by area.</returns>
+        </member>
+        <member name="T:MonoGame.Extended.Collisions.QuadtreeData">
+            <summary>
+                Data structure for the quad tree.
+                Holds the entity and collision data for it.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.QuadtreeData.Target">
+            <summary>
+                Gets or sets the Target for collision.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.QuadtreeData.Dirty">
+            <summary>
+                Gets or sets whether Target has had its collision handled this
+                iteration.
+            </summary>
+        </member>
+        <member name="P:MonoGame.Extended.Collisions.QuadtreeData.Bounds">
+            <summary>
+                Gets or sets the bounding box for collision detection.
+            </summary>
+        </member>
+    </members>
+</doc>

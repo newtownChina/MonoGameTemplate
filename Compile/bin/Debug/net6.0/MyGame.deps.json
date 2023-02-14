@@ -1,0 +1,384 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MyGame/1.0.0": {
+        "dependencies": {
+          "MonoGame.Content.Builder.Task": "3.8.1.303",
+          "MonoGame.Extended": "3.9.0-alpha0084",
+          "MonoGame.Extended.Animations": "3.7.0",
+          "MonoGame.Extended.Collisions": "3.9.0-alpha0084",
+          "MonoGame.Extended.Content.Pipeline": "3.9.0-alpha0084",
+          "MonoGame.Extended.Entities": "3.9.0-alpha0084",
+          "MonoGame.Extended.Graphics": "3.9.0-alpha0084",
+          "MonoGame.Extended.Gui": "3.9.0-alpha0084",
+          "MonoGame.Extended.Input": "3.9.0-alpha0084",
+          "MonoGame.Extended.NuclexGui": "3.8.0",
+          "MonoGame.Extended.Particles": "3.9.0-alpha0084",
+          "MonoGame.Extended.SceneGraphs": "3.9.0-alpha0045",
+          "MonoGame.Extended.Tiled": "3.9.0-alpha0084",
+          "MonoGame.Extended.Tweening": "3.9.0-alpha0084",
+          "MonoGame.Framework.DesktopGL": "3.8.1.303",
+          "Newtonsoft.Json": "13.0.2",
+          "INIFileParser": "2.5.2.0"
+        },
+        "runtime": {
+          "MyGame.dll": {}
+        }
+      },
+      "Autofac/5.2.0": {
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        }
+      },
+      "MonoGame.Content.Builder.Task/3.8.1.303": {},
+      "MonoGame.Extended/3.9.0-alpha0084": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Extended.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Animations/3.7.0": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Extended.Animations.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Collisions/3.9.0-alpha0084": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Extended.Collisions.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Content.Pipeline/3.9.0-alpha0084": {
+        "dependencies": {
+          "Autofac": "5.2.0",
+          "MonoGame.Extended": "3.9.0-alpha0084",
+          "MonoGame.Extended.Tiled": "3.9.0-alpha0084",
+          "Newtonsoft.Json": "13.0.2"
+        }
+      },
+      "MonoGame.Extended.Entities/3.9.0-alpha0084": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Extended.Entities.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Graphics/3.9.0-alpha0084": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Extended.Graphics.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Gui/3.9.0-alpha0084": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084",
+          "MonoGame.Extended.Input": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Extended.Gui.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Input/3.9.0-alpha0084": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Extended.Input.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.NuclexGui/3.8.0": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084",
+          "MonoGame.Extended.Input": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Extended.NuclexGui.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Particles/3.9.0-alpha0084": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Extended.Particles.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.SceneGraphs/3.9.0-alpha0045": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Extended.SceneGraphs.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Tiled/3.9.0-alpha0084": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084",
+          "MonoGame.Extended.Graphics": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Extended.Tiled.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Tweening/3.9.0-alpha0084": {
+        "dependencies": {
+          "MonoGame.Extended": "3.9.0-alpha0084"
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Extended.Tweening.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "MonoGame.Framework.DesktopGL/3.8.1.303": {
+        "runtime": {
+          "lib/net6.0/MonoGame.Framework.dll": {
+            "assemblyVersion": "3.8.1.303",
+            "fileVersion": "3.8.1.303"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSDL2-2.0.so.0": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libopenal.so.1": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libSDL2.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libopenal.1.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2.0.20.0"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2.0.20.0"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "INIFileParser/2.5.2.0": {
+        "runtime": {
+          "INIFileParser.dll": {
+            "assemblyVersion": "2.5.2.0",
+            "fileVersion": "2.5.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V8dBH0dsv75uDzl7Sw+HkhKDPUw2eXnlMjcSVMH+tLo2s67MpTKGyDj1pDcpR+IF2u4YRs0s3/x7R88YJzIWvg==",
+      "path": "autofac/5.2.0",
+      "hashPath": "autofac.5.2.0.nupkg.sha512"
+    },
+    "MonoGame.Content.Builder.Task/3.8.1.303": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Ilzzje62LhWElbPNEl7vh7XsRSbze+lvCJdZtTZUGu48FRgvYN6THURwIB9PN98EI33/Wnf6iuShNUtD7hL4Q==",
+      "path": "monogame.content.builder.task/3.8.1.303",
+      "hashPath": "monogame.content.builder.task.3.8.1.303.nupkg.sha512"
+    },
+    "MonoGame.Extended/3.9.0-alpha0084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-egxm/7ZNa9a6armSHdh4D0j70qHpwnXwVz9qBGH+Y1YSoKJr/TTwrQaMc+obxRHGbqpkPKXsj29BhkLVlN96NQ==",
+      "path": "monogame.extended/3.9.0-alpha0084",
+      "hashPath": "monogame.extended.3.9.0-alpha0084.nupkg.sha512"
+    },
+    "MonoGame.Extended.Animations/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UuZwWK4etHTkY/ZctazyBNL2orVTUdw3GtPPs09onU+izBLxO3/PqooqfRXjWEV/iHT+bocjLUucw48ZwACNMg==",
+      "path": "monogame.extended.animations/3.7.0",
+      "hashPath": "monogame.extended.animations.3.7.0.nupkg.sha512"
+    },
+    "MonoGame.Extended.Collisions/3.9.0-alpha0084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ztYMUFCwKj+POLpsGgGGjNQB6+56byEI02SPhUenI6cDswFi4elhY7ridSBRMeWD0yUb5x5we3h5TqGjSQxF7w==",
+      "path": "monogame.extended.collisions/3.9.0-alpha0084",
+      "hashPath": "monogame.extended.collisions.3.9.0-alpha0084.nupkg.sha512"
+    },
+    "MonoGame.Extended.Content.Pipeline/3.9.0-alpha0084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-notA3ujW7+L/EFm23rxsbMZqZ670XBdGans0blVCLyvf6XaokrtSm7fj6+UewHqQH0j16rGFa1MNcRbjQqYssw==",
+      "path": "monogame.extended.content.pipeline/3.9.0-alpha0084",
+      "hashPath": "monogame.extended.content.pipeline.3.9.0-alpha0084.nupkg.sha512"
+    },
+    "MonoGame.Extended.Entities/3.9.0-alpha0084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-txNYEoGoG799TI2H5zlXqM9gYgXZCvHqTYH5XKJzDKO3EuFxZQ6Wr+2iIPv18HxiDZF6xElv00zHoVWOrw9LEg==",
+      "path": "monogame.extended.entities/3.9.0-alpha0084",
+      "hashPath": "monogame.extended.entities.3.9.0-alpha0084.nupkg.sha512"
+    },
+    "MonoGame.Extended.Graphics/3.9.0-alpha0084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-07kV343QDGl8dwhtG6ICC1jaxLA1mJiDEC/FPj4cqWMKWQZfxDmaFNR+MtungApOfMTE3vFAi11h/H5tcE27Og==",
+      "path": "monogame.extended.graphics/3.9.0-alpha0084",
+      "hashPath": "monogame.extended.graphics.3.9.0-alpha0084.nupkg.sha512"
+    },
+    "MonoGame.Extended.Gui/3.9.0-alpha0084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fNLuD8k5xxcq2cTGOKJjbKL/a9UWFNvxGgOuWCGBjNvJduvA5kOjCXLLYeQINHOpSt27d4OuXiM6WCx7AwpDmA==",
+      "path": "monogame.extended.gui/3.9.0-alpha0084",
+      "hashPath": "monogame.extended.gui.3.9.0-alpha0084.nupkg.sha512"
+    },
+    "MonoGame.Extended.Input/3.9.0-alpha0084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2GtGdPQEURC+ezsR+X46okbl2BsDQgB1M1CBa/JP6XemAfczBT/c8MH9QoPECgYcfwrkZVgC5oLSN2eBCcOh4w==",
+      "path": "monogame.extended.input/3.9.0-alpha0084",
+      "hashPath": "monogame.extended.input.3.9.0-alpha0084.nupkg.sha512"
+    },
+    "MonoGame.Extended.NuclexGui/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TKsfUOfFPmP9a4oX9WgCt+xSEoFr99Zq/v3DO4yihweiqJsQ+xwZZnzaKor5ehXairez51qru8U2+1XlMAtq0w==",
+      "path": "monogame.extended.nuclexgui/3.8.0",
+      "hashPath": "monogame.extended.nuclexgui.3.8.0.nupkg.sha512"
+    },
+    "MonoGame.Extended.Particles/3.9.0-alpha0084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nbcLJL6MlRlpsNItNT7dIIQYQ5koTEeYqI0r8zgvwqrmBFvVYQ/+F+P2bgCmQed5/+w2iJCMutTtrvJvEnZt7A==",
+      "path": "monogame.extended.particles/3.9.0-alpha0084",
+      "hashPath": "monogame.extended.particles.3.9.0-alpha0084.nupkg.sha512"
+    },
+    "MonoGame.Extended.SceneGraphs/3.9.0-alpha0045": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N9GYWYZcGDrVpUE8r+z07YwhEpKIkm2oBW1EXJs6ifye57N0jBFB6E3Wge3gEr2WIqtOahXPRa0dUeiM2qwriQ==",
+      "path": "monogame.extended.scenegraphs/3.9.0-alpha0045",
+      "hashPath": "monogame.extended.scenegraphs.3.9.0-alpha0045.nupkg.sha512"
+    },
+    "MonoGame.Extended.Tiled/3.9.0-alpha0084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ylKFpit9AW2JJGduh7q4Ap5dGvWgNjCnp4G0pnEinKaEdbdg4BuoJyVJV3BJurmETkVkFWoplpL1bYN0vxVK6w==",
+      "path": "monogame.extended.tiled/3.9.0-alpha0084",
+      "hashPath": "monogame.extended.tiled.3.9.0-alpha0084.nupkg.sha512"
+    },
+    "MonoGame.Extended.Tweening/3.9.0-alpha0084": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ZMxBcYexLIc2RhKxE+gPDeK0BwxaFQsOmA4aAuw4PDQ5Xz22mdRtHkyR/rMDpNtKqP0FELR4uejqmcHH5/87A==",
+      "path": "monogame.extended.tweening/3.9.0-alpha0084",
+      "hashPath": "monogame.extended.tweening.3.9.0-alpha0084.nupkg.sha512"
+    },
+    "MonoGame.Framework.DesktopGL/3.8.1.303": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eGYhqn0n1olk8MNYeE9EuBmoNNECN1T18rPMaQpkzsEQ0H3nVyFPXC+uCo78v5pi5juQpJ3PSFnSkjzZJ1U58A==",
+      "path": "monogame.framework.desktopgl/3.8.1.303",
+      "hashPath": "monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "INIFileParser/2.5.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

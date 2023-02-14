@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "g3gyfUBM5wzr5bzqWqURLg0kWrVqKwSjOinzYiCS9V6GdCzgdiCQYWAtXalaGqAU7axBLbVloM6j95S3HwsvSw==",
+  "success": true,
+  "projectFilePath": "D:\\MyGame\\MyGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\niuxi\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended\\3.9.0-alpha0084\\monogame.extended.3.9.0-alpha0084.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.animations\\3.7.0\\monogame.extended.animations.3.7.0.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.collisions\\3.9.0-alpha0084\\monogame.extended.collisions.3.9.0-alpha0084.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.content.pipeline\\3.9.0-alpha0084\\monogame.extended.content.pipeline.3.9.0-alpha0084.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.entities\\3.9.0-alpha0084\\monogame.extended.entities.3.9.0-alpha0084.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.graphics\\3.9.0-alpha0084\\monogame.extended.graphics.3.9.0-alpha0084.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.gui\\3.9.0-alpha0084\\monogame.extended.gui.3.9.0-alpha0084.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.input\\3.9.0-alpha0084\\monogame.extended.input.3.9.0-alpha0084.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.nuclexgui\\3.8.0\\monogame.extended.nuclexgui.3.8.0.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.particles\\3.9.0-alpha0084\\monogame.extended.particles.3.9.0-alpha0084.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.scenegraphs\\3.9.0-alpha0045\\monogame.extended.scenegraphs.3.9.0-alpha0045.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.tiled\\3.9.0-alpha0084\\monogame.extended.tiled.3.9.0-alpha0084.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.extended.tweening\\3.9.0-alpha0084\\monogame.extended.tweening.3.9.0-alpha0084.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\niuxi\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

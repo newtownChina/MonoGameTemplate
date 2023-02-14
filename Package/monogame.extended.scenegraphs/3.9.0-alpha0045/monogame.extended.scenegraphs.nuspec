@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MonoGame.Extended.SceneGraphs</id>
+    <version>3.9.0-alpha0045</version>
+    <authors>craftworkgames</authors>
+    <owners>craftworkgames</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/craftworkgames/MonoGame.Extended</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/craftworkgames/MonoGame.Extended/master/Logos/logo-nuget-128.png</iconUrl>
+    <description>A scene graph system to make MonoGame more awesome.</description>
+    <tags>monogame scene graph node entity</tags>
+    <repository url="https://github.com/craftworkgames/MonoGame.Extended" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="MonoGame.Extended" version="3.9.0-alpha0045" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

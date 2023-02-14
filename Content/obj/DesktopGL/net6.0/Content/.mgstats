@@ -1,0 +1,19 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/MyGame/Content/character.png","D:/MyGame/Content/bin/DesktopGL/Content/character.xnb","TextureProcessor","Texture2DContent",51172,564221,0.6134335
+"D:/MyGame/Content/colorPanel.png","D:/MyGame/Content/bin/DesktopGL/Content/colorPanel_1.xnb","TextureProcessor","Texture2DContent",1222,49237,0.0458457
+"D:/MyGame/Content/colorPanel.tsx","D:/MyGame/Content/bin/DesktopGL/Content/colorPanel_0.xnb","TiledMapTilesetProcessor","TiledMapTilesetContentItem",829,308,0.0549564
+"D:/MyGame/Content/generic_platformer_tiles_1.png","D:/MyGame/Content/bin/DesktopGL/Content/generic_platformer_tiles_1_1.xnb","TextureProcessor","Texture2DContent",44484,3145813,0.2220408
+"D:/MyGame/Content/generic_platformer_tiles_1.tsx","D:/MyGame/Content/bin/DesktopGL/Content/generic_platformer_tiles_1_0.xnb","TiledMapTilesetProcessor","TiledMapTilesetContentItem",9786,5367,0.2131932
+"D:/MyGame/Content/Icon.ico","D:/MyGame/Content/bin/DesktopGL/Content/Icon.xnb","TextureProcessor","Texture2DContent",147541,262229,0.0183
+"D:/MyGame/Content/mario.png","D:/MyGame/Content/bin/DesktopGL/Content/mario_1.xnb","TextureProcessor","Texture2DContent",5473,24661,0.089928
+"D:/MyGame/Content/mario.tsx","D:/MyGame/Content/bin/DesktopGL/Content/mario_0.xnb","TiledMapTilesetProcessor","TiledMapTilesetContentItem",1461,439,0.0054408
+"D:/MyGame/Content/marioLeft.gif","D:/MyGame/Content/bin/DesktopGL/Content/marioLeft.xnb","TextureProcessor","Texture2DContent",578,3157,0.0576212
+"D:/MyGame/Content/marioLeft2.png","D:/MyGame/Content/bin/DesktopGL/Content/marioLeft2.xnb","TextureProcessor","Texture2DContent",3277,3157,0.0431764
+"D:/MyGame/Content/marioLeft3.png","D:/MyGame/Content/bin/DesktopGL/Content/marioLeft3.xnb","TextureProcessor","Texture2DContent",3289,2901,0.0959014
+"D:/MyGame/Content/marioLeftJump.png","D:/MyGame/Content/bin/DesktopGL/Content/marioLeftJump.xnb","TextureProcessor","Texture2DContent",3275,3157,0.0763218
+"D:/MyGame/Content/marioRight1.png","D:/MyGame/Content/bin/DesktopGL/Content/marioRight1.xnb","TextureProcessor","Texture2DContent",3248,3157,0.1081993
+"D:/MyGame/Content/marioRight2.png","D:/MyGame/Content/bin/DesktopGL/Content/marioRight2.xnb","TextureProcessor","Texture2DContent",3266,3157,0.0435875
+"D:/MyGame/Content/marioRight3.png","D:/MyGame/Content/bin/DesktopGL/Content/marioRight3.xnb","TextureProcessor","Texture2DContent",3314,3157,0.0294643
+"D:/MyGame/Content/marioRightJump.png","D:/MyGame/Content/bin/DesktopGL/Content/marioRightJump.xnb","TextureProcessor","Texture2DContent",3184,3157,0.0202921
+"D:/MyGame/Content/MyGameMap1.tmx","D:/MyGame/Content/bin/DesktopGL/Content/MyGameMap1.xnb","TiledMapProcessor","TiledMapContentItem",17016,14267,0.2939069
+"D:/MyGame/Content/MyGameMap2.tmx","D:/MyGame/Content/bin/DesktopGL/Content/MyGameMap2.xnb","TiledMapProcessor","TiledMapContentItem",11347,8538,0.0065689

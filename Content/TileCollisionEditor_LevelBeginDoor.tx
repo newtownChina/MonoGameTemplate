@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="CollisionRectangle" width="32" height="32">
+  <properties>
+   <property name="Collision" type="bool" value="true"/>
+   <property name="LevelBeginDoor" type="bool" value="true"/>
+  </properties>
+ </object>
+</template>

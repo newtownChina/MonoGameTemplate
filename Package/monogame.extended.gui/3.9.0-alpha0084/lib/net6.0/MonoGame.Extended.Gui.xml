@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MonoGame.Extended.Gui</name>
+    </assembly>
+    <members>
+        <member name="M:MonoGame.Extended.Gui.GuiSystem.PropagateDown(MonoGame.Extended.Gui.Controls.Control,System.Func{MonoGame.Extended.Gui.Controls.Control,System.Boolean})">
+            <summary>
+            Method is meant to loop down the parents control to find a suitable event control.  If the predicate returns false
+            it will continue down the control tree.
+            </summary>
+            <param name="control">The control we want to check against</param>
+            <param name="predicate">A function to check if the propagation should resume, if returns false it will continue down the tree.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MonoGame.Extended.Transform</id>
+    <version>3.8.0-pullrequest0677-0089</version>
+    <authors>Craftwork Games</authors>
+    <owners>Craftwork Games</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/craftworkgames/MonoGame.Extended</projectUrl>
+    <description>Provides spatial game types in 2D and 3D.</description>
+    <copyright>Copyright © 2020 Craftwork Games</copyright>
+    <tags>monogame monogame.extended c# csharp dotnet .net transform</tags>
+    <repository type="git" url="https://github.com/craftworkgames/MonoGame.Extended" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="MonoGame.Framework.DesktopGL" version="3.8.0.1375-develop" exclude="Build,Analyzers" />
+        <dependency id="StyleCop.Analyzers" version="1.1.118" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/StyleCop.ruleset" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+</package>
